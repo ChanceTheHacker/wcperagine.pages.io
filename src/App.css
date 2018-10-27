@@ -1,32 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers|Diplomata|Forum|Sigmar+One");
+/* font-family: 'Diplomata', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Sigmar One', cursive; 
+font-family: 'Forum', cursive; */
+
+:root {
+  --purple: #ab47bc;
+  --blue: #448aff;
+  --yellow: #f19a3e;
+  --green: #04a641;
+  --orange: #f55d3e;
+  --red: #ff5252;
+  --white: #f6f4f3;
+  --black: #464655;
+  --brown: #403233;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Forum", cursive;
+  font-weight: 100;
+  overflow: scroll;
+  width: 100vw;
 }

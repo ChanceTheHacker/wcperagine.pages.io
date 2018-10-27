@@ -1,0 +1,31 @@
+#headerWrapper {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(var(--green), #f6f4f300);
+  user-select: none;
+}
+
+#header {
+  color: var(--white);
+  text-shadow: -3px -3px 0 var(--brown), 3px -3px 0 var(--brown),
+    -3px 3px 0 var(--brown), 3px 3px 0 var(--brown);
+  font-family: "Bangers", cursive;
+  margin: auto;
+  padding-top: 10vh;
+  transition-duration: 0.5s;
+}
+
+#headerText {
+  width: 80vw;
+  height: 20vh;
+  font-size: 7vw;
+}
+
+#headerText:hover {
+}
+.fancy {
+  color: var(--red);
+}
