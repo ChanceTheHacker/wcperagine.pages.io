@@ -1,0 +1,21 @@
+#pipeBackground {
+  position: absolute;
+  top: 350vh;
+  left: 0;
+  height: 200vw;
+  width: 100vw;
+  z-index: 0;
+}
+
+.pipePart {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 5;
+}
+
+@media (max-aspect-ratio: 2/3) {
+  #pipeBackground {
+    height: 400vw;
+    width: 200vw;
+  }
+}

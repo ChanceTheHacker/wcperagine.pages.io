@@ -1,0 +1,89 @@
+svg[id^="claw"] {
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  top: calc(var(--clawTop) + 1vw);
+  left: 120vh;
+  z-index: 0;
+}
+
+path[id^="claw"] {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#clawLeftWrapper1 {
+  left: 120vh;
+  transform: scaleY(-1) rotate(-50deg) skewY(20deg) rotateY(20deg);
+}
+
+#clawRightWrapper1 {
+  top: calc(var(--clawTop) + 15vw);
+  left: 150vh;
+  transform: rotate(-50deg) skewY(20deg) rotateY(20deg);
+}
+
+#clawCenterWrapper1 {
+  top: calc(var(--clawTop) + 8vw);
+  left: 150vh;
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+
+#clawWoodWrapperLeft1,
+#clawWoodWrapperRight1 {
+  position: absolute;
+  height: 45vw;
+  width: 4.5vw;
+  top: 220vh;
+  left: 1144.5vh;
+  z-index: 4;
+  transform: rotate(20deg);
+}
+
+#clawWoodWrapperLeft1 {
+  top: var(--clawTop);
+  transform: rotate(-20deg);
+  z-index: 2;
+}
+
+#clawWoodWrapperRight1 {
+  top: var(--clawTop);
+}
+
+path[id^="clawWood"],
+rect[id^="clawWood"] {
+  fill: var(--wood);
+  stroke: var(--brown);
+  stroke-width: 2;
+  transition-duration: 0s;
+}
+
+#clawAttachmentWrapper1 {
+  position: absolute;
+  transform: rotate(90deg);
+
+  height: 20vw;
+  width: 20vw;
+  top: calc(var(--clawTop) + 12.5vw);
+  left: 120vh;
+  z-index: 5;
+}
+
+#clawAttachment1 {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 2;
+  transition-duration: 0s;
+}
+
+#clawPlaceholder {
+  position: absolute;
+  top: 149vh;
+  left: -200vw;
+  height: 1vh;
+  width: 1vw;
+  background: #fff0;
+  z-index: -1;
+}

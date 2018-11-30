@@ -1,0 +1,30 @@
+#second {
+  position: absolute;
+  top: 225vh;
+  left: 100vw;
+  height: 300vh;
+  width: 100vw;
+}
+
+#secondBorder {
+  background: linear-gradient(
+    var(--angle),
+    #fff0,
+    10%,
+    #fff0,
+    0%,
+    var(--brown)
+  );
+  position: absolute;
+  left: -1vw;
+  height: 100%;
+  width: 101%;
+}
+
+#secondContent {
+  background: linear-gradient(var(--angle), #fff0, 10%, #fff0, 0%, var(--blue));
+  position: absolute;
+  top: 1vw;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+#gearThreeBot,
+#gearThreeTop {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  top: calc(85vh - 5vw);
+  left: -1vw;
+  z-index: 0;
+}
+
+#gearThreeMain {
+  fill: var(--lightSilver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearThreeWasher {
+  fill: var(--darkSilver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearThreeNut {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 2;
+  transform-origin: 50% 50%;
+}

@@ -1,5 +1,37 @@
 #body {
-  height: 500vh;
+  height: 490vh;
+}
+
+#gearBacker {
+  position: absolute;
+  height: 35.4vw;
+  width: 25vw;
+  top: calc(85vh + 2vw);
+  left: -7vw;
+  transform: rotate(45deg);
+  border-radius: 75.1px;
+
+  background: linear-gradient(-45deg, #fff0, 39.6%, #fff0, 0%, var(--brown));
+  z-index: 0;
+}
+
+#gearBacker:after {
+  content: "";
+  position: absolute;
+  height: 34.9vw;
+  width: 24.5vw;
+  top: 0.25vw;
+  left: 0.25vw;
+  border-radius: 75px;
+
+  background: linear-gradient(
+    -45deg,
+    #fff0,
+    40%,
+    #fff0,
+    0%,
+    var(--veryLightSilver)
+  );
 }
 
 .gearOneWrapper {

@@ -1,0 +1,61 @@
+#gearBackground {
+  height: 200vw;
+  width: 100vw;
+  position: absolute;
+  top: 100vh;
+  left: 0vw;
+  transform: rotate(180deg);
+  z-index: 0;
+}
+
+.screwHead {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 3;
+}
+
+.screwNotch {
+  fill: var(--brown);
+  stroke: var(--brown);
+}
+
+rect[id^="gearBackgroundRect"] {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 5;
+}
+
+@media (max-aspect-ratio: 2/3) {
+  #gearBackground {
+    height: 400vw;
+    width: 200vw;
+  }
+}
+
+#gearBackgroundRect1 {
+  fill: var(--darkSilver);
+}
+
+#gearBackgroundRect2 {
+  fill: var(--lightSilver);
+}
+
+#gearBackgroundRect3 {
+  fill: var(--silver);
+}
+
+#gearBackgroundRect4 {
+  fill: var(--silver);
+}
+
+#gearBackgroundRect5 {
+  fill: var(--lightSilver);
+}
+
+#gearBackgroundRect6 {
+  fill: var(--lightSilver);
+}
+
+#gearBackgroundRect7 {
+  fill: var(--darkSilver);
+}
