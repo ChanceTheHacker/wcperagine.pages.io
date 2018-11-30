@@ -1,0 +1,28 @@
+#gearFourBot,
+#gearFourTop {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  top: calc(85vh + 1vw);
+  left: 7.5vw;
+  z-index: 0;
+}
+
+#gearFourMain {
+  fill: var(--lightSilver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearFourWasher {
+  fill: var(--darkSilver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearFourNut {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 2;
+  transform-origin: 50% 50%;
+}

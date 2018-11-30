@@ -1,0 +1,34 @@
+#gearOneBot,
+#gearOneTop {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  top: 85vh;
+  left: -10vw;
+  z-index: 0;
+}
+
+#gearOneMain {
+  fill: var(--bronze);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearOneSecondary {
+  fill: var(--lightSilver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearOneWasher {
+  fill: var(--darkSilver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearOneNut {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 2;
+  transform-origin: 50% 50%;
+}

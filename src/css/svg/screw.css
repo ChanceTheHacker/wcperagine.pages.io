@@ -1,0 +1,81 @@
+svg[id^="screwWrapper"] {
+  position: absolute;
+  top: calc(var(--clawTop) + 1.5vw);
+  /* top: calc(var(--clawTop) + 41.5vw); */
+  left: 11vw;
+  height: 2.5vw;
+  width: 2.5vw;
+  z-index: 5;
+}
+
+circle[id^="screwHead"] {
+  fill: var(--silver);
+  stroke: var(--brown);
+}
+
+path[id^="screwNotch"] {
+  fill: var(--brown);
+}
+
+/* top half of wood */
+#screwWrapper1 {
+  transform: rotate(35deg);
+}
+
+#screwWrapper2 {
+  transform: rotate(70deg);
+}
+
+#screwWrapper3 {
+  transform: rotate(85deg);
+}
+
+#screwWrapper4 {
+  transform: rotate(10deg);
+}
+
+#screwWrapper5 {
+  transform: rotate(30deg);
+}
+
+/* bottom half of wood */
+#screwWrapper6 {
+  top: calc(var(--clawTop) + 41.5vw);
+  transform: rotate(0deg);
+}
+
+#screwWrapper7 {
+  top: calc(var(--clawTop) + 41.5vw);
+  transform: rotate(40deg);
+}
+
+#screwWrapper8 {
+  top: calc(var(--clawTop) + 41.5vw);
+  transform: rotate(25deg);
+}
+
+#screwWrapper9 {
+  top: calc(var(--clawTop) + 41.5vw);
+  transform: rotate(50deg);
+}
+
+#screwWrapper10 {
+  top: calc(var(--clawTop) + 41.5vw);
+  transform: rotate(75deg);
+}
+
+/* part of claw */
+
+#screwWrapper11 {
+  top: calc(var(--clawTop) + 15vw);
+  transform: rotate(5deg);
+}
+
+#screwWrapper12 {
+  top: calc(var(--clawTop) + 27.5vw);
+  transform: rotate(25deg);
+}
+#screwWrapper13 {
+  top: calc(var(--clawTop) + 21.7vw);
+  transform: rotate(60deg);
+}

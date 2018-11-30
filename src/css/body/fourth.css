@@ -1,0 +1,87 @@
+#fourth {
+  position: absolute;
+  top: 500vh;
+  height: 300vh;
+  width: 100vw;
+}
+
+#fourthBorderOne {
+  background: linear-gradient(
+    var(--negAngle),
+    #fff0,
+    10%,
+    #fff0,
+    0%,
+    var(--brown)
+  );
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#fourthBorderTwo {
+  background: linear-gradient(
+    var(--angle),
+    #fff0,
+    10%,
+    #fff0,
+    0%,
+    var(--brown)
+  );
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#fourthBorderThree {
+  background: var(--brown);
+  position: absolute;
+  top: 10vh;
+  height: 100%;
+  width: 100%;
+}
+
+#fourthContentOne {
+  background: linear-gradient(
+    var(--negAngle),
+    #fff0,
+    10%,
+    #fff0,
+    0%,
+    var(--orange)
+  );
+  position: absolute;
+  top: 1vw;
+  height: 100%;
+  width: 100%;
+}
+
+#fourthContentTwo {
+  background: linear-gradient(
+    var(--angle),
+    #fff0,
+    10%,
+    #fff0,
+    0%,
+    var(--orange)
+  );
+  position: absolute;
+  top: 1vw;
+  height: 100%;
+  width: 100%;
+}
+
+#fourthContentThree {
+  background: var(--orange);
+  position: absolute;
+  top: calc(10vh + 1vw);
+  height: 100%;
+  width: 100%;
+}
+
+#fourthThree {
+  position: absolute;
+  top: 10vh;
+  background: var(--orange);
+  height: 290vh;
+  width: 100vw;
+}

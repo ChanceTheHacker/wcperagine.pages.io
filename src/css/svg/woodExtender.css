@@ -1,0 +1,20 @@
+rect[id^="wood"] {
+  fill: var(--wood);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+svg[id^="wood"] {
+  position: absolute;
+  top: var(--clawTop);
+  height: 45vw;
+  width: 4.5vw;
+  z-index: 2;
+}
+
+svg[id^="woodTop"] {
+  z-index: 2;
+}
+
+svg[id^="woodBot"] {
+  z-index: 1;
+}

@@ -1,0 +1,34 @@
+#gearTwoBot,
+#gearTwoTop {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  top: calc(85vh + 10vw);
+  left: 2.5vw;
+  z-index: 0;
+}
+
+#gearTwoMain {
+  fill: var(--bronze);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearTwoSecondary {
+  fill: var(--lightSilver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearTwoWasher {
+  fill: var(--darkSilver);
+  stroke: var(--brown);
+  stroke-width: 2;
+}
+
+#gearTwoNut {
+  fill: var(--silver);
+  stroke: var(--brown);
+  stroke-width: 2;
+  transform-origin: 50% 50%;
+}
