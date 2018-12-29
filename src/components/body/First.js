@@ -6,7 +6,7 @@ function First(props) {
     <div id="first">
       <div id="firstBorder" />
       <div id="firstContent">
-      <div id="aboutMeLoc"/>
+        <div id="aboutMeLoc"/>
         <h2 id='aboutMe'>
           About Me
         </h2>

@@ -4,6 +4,18 @@
   z-index: 6;
 }
 
-.NavBar {
-  background: blue;
+.navbar {
+  background: var(--brown);
+  border-radius: 0;
+  font-size: 3vh;
+  color: var(--yellow);
+}
+
+#brand, .navbar-nav li.navLink a{
+  color: var(--yellow);
+}
+
+.navbar-brand{
+  font-size: 3.5vh;
+  color: var(--yellow);
 }
