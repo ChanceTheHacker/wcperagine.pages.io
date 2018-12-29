@@ -11,7 +11,7 @@ function First(props) {
           About Me
         </h2>
         <article id="aboutInfo">
-          I'm a demolition worker who knows some good stuff and now I do web developement.
+          I'm a demolition worker who knows some good stuff and now I do web developement. I'm a cool guy.
         </article>
       </div>
     </div>
