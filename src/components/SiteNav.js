@@ -8,14 +8,14 @@ function SiteNav(props) {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">React-Bootstrap</a>
+            <a href="#brand">Chance Peragine</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="#">
-              Link
+            <NavItem eventKey={1} href="#aboutMeLoc">
+              About Me
             </NavItem>
             <NavItem eventKey={2} href="#">
               Link

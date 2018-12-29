@@ -35,3 +35,35 @@
   height: 100%;
   width: 100%;
 }
+#aboutMeLoc{
+  position: absolute;
+  top: 30vh;
+}
+
+#aboutMe{
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  top: 40vh;
+  color: var(--yellow);
+  text-shadow: -0.4vw -0.1vw 0 var(--brown), 0.1vw -0.1vw 0 var(--brown),
+    -0.1vw 0.1vw 0 var(--brown), 0.1vw 0.1vw 0 var(--brown);
+  font-family: "Bangers", cursive;
+  font-size: 5vw;
+}
+
+#aboutInfo{
+  position: absolute;
+  width: 90%;
+  height: 100vh;
+  background: var(--yellow);
+  /* border: .3vw solid var(--brown); */
+  box-shadow: -1.5vw -0.8vw 0 var(--brown), 0.3vw -0.3vw 0 var(--brown),
+    -0.3vw 0.3vw 0 var(--brown), 0.3vw 0.3vw 0 var(--brown);
+  margin: auto;
+  top: 55vh;
+  left: 5vw;
+  color: var(--brown);
+  font-family: 'Forum', cursive;
+  font-size: 3vw;
+}
