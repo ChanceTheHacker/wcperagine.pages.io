@@ -2,7 +2,7 @@
   position: absolute;
   top: 350vh;
   left: -100vw;
-  height: 300vh;
+  height: 200vh;
   width: 100vw;
 }
 #thirdBorder {
@@ -59,7 +59,7 @@
   height: 100vh;
   background: var(--yellow);
   /* border: .3vw solid var(--brown); */
-  box-shadow: -1.5vw -0.8vw 0 var(--brown), 0.3vw -0.3vw 0 var(--brown),
+  box-shadow: -0.3vw -0.3vw 0 var(--brown), 0.3vw -0.3vw 0 var(--brown),
     -0.3vw 0.3vw 0 var(--brown), 0.3vw 0.3vw 0 var(--brown);
   margin: auto;
   top: 55vh;

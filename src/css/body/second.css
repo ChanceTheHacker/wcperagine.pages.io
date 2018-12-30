@@ -52,7 +52,7 @@
   height: 100vh;
   background: var(--yellow);
   /* border: .3vw solid var(--brown); */
-  box-shadow: -1.5vw -0.8vw 0 var(--brown), 0.3vw -0.3vw 0 var(--brown),
+  box-shadow: -.3vw -0.3vw 0 var(--brown), 0.3vw -0.3vw 0 var(--brown),
     -0.3vw 0.3vw 0 var(--brown), 0.3vw 0.3vw 0 var(--brown);
   margin: auto;
   top: 55vh;
