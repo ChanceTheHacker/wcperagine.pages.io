@@ -1,4 +1,5 @@
 import React from "react";
+import { FaEnvelope } from "react-icons/fa";
 import "../../css/body/fourth.css";
 
 function Fourth(props) {
@@ -14,7 +15,7 @@ function Fourth(props) {
           Contact Me
         </h2>
         <article id="contactMeInfo">
-          Let's talk
+          <FaEnvelope className="icons"/> Chance@chancethehacker.com
         </article>
       </div>
     </div>

@@ -29,12 +29,12 @@
   width: 100%;
 }
 
-#myProjectsLoc{
+#myProjectsLoc {
   position: absolute;
   top: 30vh;
 }
 
-#myProjects{
+#myProjects {
   position: absolute;
   width: 100%;
   margin: auto;
@@ -46,18 +46,18 @@
   font-size: 5vw;
 }
 
-#myProjectsInfo{
+#myProjectsInfo {
   position: absolute;
   width: 90%;
   height: 100vh;
   background: var(--yellow);
   /* border: .3vw solid var(--brown); */
-  box-shadow: -.3vw -0.3vw 0 var(--brown), 0.3vw -0.3vw 0 var(--brown),
+  box-shadow: -0.3vw -0.3vw 0 var(--brown), 0.3vw -0.3vw 0 var(--brown),
     -0.3vw 0.3vw 0 var(--brown), 0.3vw 0.3vw 0 var(--brown);
   margin: auto;
   top: 55vh;
   left: 5vw;
   color: var(--brown);
-  font-family: 'Forum', cursive;
+  font-family: "Forum", cursive;
   font-size: 3vw;
 }
