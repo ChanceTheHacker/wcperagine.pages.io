@@ -38,6 +38,7 @@
 #aboutMeLoc {
   position: absolute;
   top: 30vh;
+  left: 0vw;
 }
 
 #aboutMe {
@@ -63,6 +64,7 @@
   margin: auto;
   top: 55vh;
   left: 5vw;
+  padding: 3vw;
   color: var(--brown);
   font-family: "Forum", cursive;
   font-size: 3vw;

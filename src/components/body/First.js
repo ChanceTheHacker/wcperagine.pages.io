@@ -6,12 +6,16 @@ function First(props) {
     <div id="first">
       <div id="firstBorder" />
       <div id="firstContent">
-        <div id="aboutMeLoc"/>
-        <h2 id='aboutMe'>
-          About Me
-        </h2>
+        <div id="aboutMeLoc" />
+        <h2 id="aboutMe">About Me</h2>
         <article id="aboutInfo">
-          I'm a demolition worker who knows some good stuff and now I do web developement. I'm a cool guy.
+          Currently, I'm a site supervisor for a demolition company, but over
+          the past year I've spent every waking hour of my personal time
+          teaching myself to code. When I need a break from coding websites, I
+          enjoy coding games in c# / c++ or writing unix shell scripts to make
+          my life easier. I've also been trying to teach myself to draw because
+          it seems like a complementary skill for a web developer. I drew
+          everything on this web page myself, except for the icons.
         </article>
       </div>
     </div>
