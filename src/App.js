@@ -4,12 +4,14 @@ import Header from "./components/Header";
 import SiteNav from "./components/SiteNav";
 import Body from "./components/Body";
 import Placeholder from "./components/Placeholder";
+import Bowser from "bowser";
 import "./App.css";
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
+      browser: Bowser.getParser(window.navigator.userAgent).getBrowserName(),
       navbar: "",
       placeholder: "",
       vh: "",
@@ -428,7 +430,7 @@ class App extends Component {
       <div className="App">
         <Placeholder />
         <Background />
-        <Header />
+        <Header browser={this.state.browser} />
         <SiteNav />
         <Body />
       </div>

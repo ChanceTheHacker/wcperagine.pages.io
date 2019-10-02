@@ -14,6 +14,8 @@
     -0.1vw 0.1vw 0 var(--brown), 0.1vw 0.1vw 0 var(--brown);
   font-family: "Bangers", cursive;
   height: 92vh;
+  max-width: 80vw;
+  margin: 0 10vw 0 10vw;
   display: flex;
   texttransition-duration: 0.5s;
 }
@@ -25,6 +27,15 @@
 
 #headerText:hover {
 }
+
 .fancy {
   color: var(--red);
+}
+
+.warning {
+  color: var(--red);
+  font-size: 3vw;
+  text-shadow: -0.2vw -0.1vw 0 var(--brown), 0.1vw -0.1vw 0 var(--brown),
+    -0.1vw 0.1vw 0 var(--brown), 0.1vw 0.1vw 0 var(--brown);
+  text-decoration: underline;
 }
