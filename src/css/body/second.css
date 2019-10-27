@@ -7,14 +7,12 @@
 }
 
 #secondBorder {
-  background: linear-gradient(
-    var(--angle),
-    #fff0,
-    10%,
-    #fff0,
-    0%,
-    var(--brown)
-  );
+  background: linear-gradient(var(--angle),
+      #fff0,
+      10%,
+      #fff0,
+      0%,
+      var(--brown));
   position: absolute;
   left: -1vw;
   height: 100%;

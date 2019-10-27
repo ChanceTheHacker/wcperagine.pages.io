@@ -26,6 +26,10 @@ font-family: 'Forum', cursive; */
   --clawTop: 215vh;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -35,6 +39,7 @@ font-family: 'Forum', cursive; */
   font-family: "Forum", cursive;
   font-weight: 100;
   width: 100vw;
+  overflow: hidden;
 }
 
 #placeholder {

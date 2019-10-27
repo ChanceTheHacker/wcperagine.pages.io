@@ -3,7 +3,7 @@
   top: 350vh;
   left: 0;
   height: 200vw;
-  width: 100vw;
+  max-width: 100vw;
   z-index: 0;
 }
 

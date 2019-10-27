@@ -1,5 +1,6 @@
 #body {
   height: 390vh;
+  overflow-x: hidden;
 }
 
 #gearBacker {
@@ -24,14 +25,12 @@
   left: 0.25vw;
   border-radius: 75px;
 
-  background: linear-gradient(
-    -45deg,
-    #fff0,
-    40%,
-    #fff0,
-    0%,
-    var(--veryLightSilver)
-  );
+  background: linear-gradient(-45deg,
+      #fff0,
+      40%,
+      #fff0,
+      0%,
+      var(--veryLightSilver));
 }
 
 .gearOneWrapper {
